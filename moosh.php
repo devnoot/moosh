@@ -33,9 +33,6 @@ require_once $moosh_dir . '/includes/default_options.php';
 use GetOptionKit\ContinuousOptionParser;
 use GetOptionKit\OptionCollection;
 
-@error_reporting(E_ALL | E_STRICT);
-@ini_set('display_errors', '1');
-
 define('MOOSH_VERSION', '1.8');
 define('MOODLE_INTERNAL', true);
 
